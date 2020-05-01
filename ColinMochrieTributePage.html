@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>Mockup for Mochrie</title>
+    <meta charset = "utf-8">
+
+    <!--
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    background-color: 		#818682;
+  -->
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Signika:wght@300&display=swap" rel="stylesheet">
+    <style>
+
+    .topNav {
+      background-color: #2C3843;
+      overflow: hidden;
+      font-family: "Lato", sans-serif;
+
+    }
+
+/* Style the links inside the navigation bar */
+    .topNav a {
+      float: left;
+      margin-left: 320px;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+/* Change the color of links on hover */
+    .topNav a:hover {
+      background-color: #ff6666;
+      color: white;
+    }
+
+/* Add a color to the active/current link */
+    .topNav a.active {
+      background-color: #4CAF50;
+      color: white;
+      }
+      header {
+        padding: 70px;
+        text-align: center;
+        background-image: url("mochrie.jpg");
+        background-position: 50% 7%;
+        background-repeat: repeat;
+        color: #2C3843;
+        font-size: 25px;
+      }
+      #title{
+        padding: 40px;
+        background-color: #2C3843;
+        color: white;
+      }
+      h1{
+        font-family: "Paytone One", sans-serif;
+        letter-spacing: 7px;
+        font-size: 4em;
+        margin: 0em;
+        text-align: center;
+      }
+      h2{
+        font-family: "Lato", sans-serif;
+        letter-spacing: 3px;
+        margin: 0em;
+        text-align: center;
+      }
+      h3{
+        font-family: "Lato", sans-serif;
+        letter-spacing: 3px;
+        margin: 1em 1em 0 1em;
+        text-align: left;
+      }
+      p{
+        font-family: "Lato", sans-serif;
+        margin: 0 1em 1em 1.2em;
+      }
+      #img-div{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        background-color: #008080;
+      }
+      #image{
+
+      }
+      img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+      figure {
+        border: thin #c0c0c0 solid;
+        background-color: white;
+        padding: 10px;
+      }
+
+      #img-caption{
+        font-family: "Lato", sans-serif;
+        text-align: center;
+      }
+
+      #tribute-info{
+        font-family: "Lato", sans-serif;
+      }
+      #tribute-title{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        background-color: #800000;
+        color: white;
+        letter-spacing: 7px;
+        font-size: 24px;
+      }
+      #tribute-container{
+        display: flex;
+        flex-basis: auto;
+        align-items: center;
+        justify-content: center;
+        margin:  0 auto;
+        font-size: 20px;
+      }
+
+      li{
+        margin: 10px 0;
+      }
+      #famous-line{
+        padding: 30px;
+        font-family: "Lato", sans-serif;
+        background-color: #2C3843;
+        text-align: center;
+        color: white;
+      }
+      #events-left{
+        margin-left: 30px;
+
+      }
+      #events-right{
+        margin-top: 40px;
+        margin-right: 30px;
+      }
+
+      #filmography{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        background-color: #800000;
+        color: white;
+        letter-spacing: 20px;
+        font-size: 24px;
+      }
+
+      #awards-container{
+        padding: 30px 0 20px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 15px 15px;
+      }
+      .award1{
+        background:LightSkyBlue;
+        border-radius:10px;}
+      .award1:hover{
+        animation-name: award1-bgcolor;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+      }
+      @keyframes award1-bgcolor {
+        100% {
+          background-color: #b8e2fc;
+        }
+      }
+      .award2{
+        background:LightSalmon;
+        border-radius:10px;
+      }
+      .award2:hover{
+        animation-name: award2-bgcolor;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+      }
+      @keyframes award2-bgcolor {
+        100% {
+          background-color: #ffc4ad;
+        }
+      }
+      .award3{
+        background:PaleTurquoise;
+        border-radius:10px;
+      }
+      .award3:hover{
+        animation-name: award3-bgcolor;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+      }
+      @keyframes award3-bgcolor {
+        100% {
+          background-color: #cbfdfb;
+        }
+      }
+      .award4{
+        background:LightPink;
+        border-radius:10px;
+      }
+      .award4:hover{
+        animation-name: award4-bgcolor;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+      }
+      @keyframes award4-bgcolor {
+        100% {
+          background-color: #ffd0d7;
+        }
+      }
+      .award5{
+        background:LightPink;
+        border-radius:10px;
+      }
+      .award5:hover{
+        animation-name: award5-bgcolor;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+      }
+      @keyframes award5-bgcolor {
+        100% {
+          background-color: #ffd0d7;
+        }
+      }
+      .award6{
+        background:LightSkyBlue;
+        border-radius:10px;
+      }
+      .award6:hover{
+        animation-name: award6-bgcolor;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+      }
+      @keyframes award6-bgcolor {
+        100% {
+          background-color: #b8e2fc;
+        }
+      }
+      .award7{
+        background:LightSalmon;
+        border-radius:10px;
+      }
+      .award7:hover{
+        animation-name: award7-bgcolor;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+      }
+      @keyframes award7-bgcolor {
+        100% {
+          background-color: #ffc4ad;
+        }
+      }
+      .award8{
+        background:PaleTurquoise;
+        border-radius:10px;
+      }
+      .award8:hover{
+        animation-name: award8-bgcolor;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+      }
+      @keyframes award8-bgcolor {
+        100% {
+          background-color: #cbfdfb;
+        }
+      }
+      #additional{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px 0 10px 0;
+      }
+      #favoriteSegments{
+        padding: 20px;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 20px;
+        font-size: 24px;
+        text-align: center;
+        color: black;
+      }
+      #learn-more{
+        padding: 20px;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 20px;
+        font-size: 24px;
+        text-align: center;
+        color: black;
+      }
+      #tribute-link:hover {
+        color: red;
+      }
+      #additional-links{
+        display: flex;
+
+        justify-content: center;
+        padding: 10px 0 40px 0;
+      }
+
+      button{
+        border: none;
+        letter-spacing: 3px;
+      }
+      #buttons{
+        padding-left: 10px;
+      }
+      .button1{
+        background-color: #ffa500;
+        font-family: "Lato", sans-serif;
+        border-radius: 12px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .button2{
+        background-color: #e62100;
+        font-family: "Lato", sans-serif;
+        border-radius: 12px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .button3{
+        background-color: #00ACEE;
+        font-family: "Lato", sans-serif;
+        border-radius: 12px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+      }
+      footer {
+        padding:20px 0 20px 0;
+        background-color: #2C3843;
+        display: flex;
+        justify-content: center;
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav class="topNav">
+      <a href="#">Home</a>
+      <a href="#tribute-info">About</a>
+      <a href="#favoriteSegments">News</a>
+      <a href="#learn-more">Contact</a>
+    </nav>
+    <header>
+      <h1>Mockup for Mochrie</h1>
+      <h2><b>A Tribute to Colin A. Mochrie</b></h2>
+    </header>
+    <div id = "title">
+      <h1>Colin Mochrie</h1>
+      <h2>Comedian Extraordinaire & Sexiest Canadian Alive </h2>
+    </div>
+    <main>
+      <div id = "img-div">
+        <figure>
+          <img id = "image" src = "mochrie_yellow.jpg" alt = "Colin Mochrie Yellow Background">
+          <figcaption id = "img-caption"><b>Colin Mochrie is a Canadian improv comedian who rose to fame as a regular cast member
+                    on <em>Whose Line Is It Anyway?</em></b>
+                  </figcaption>
+        </figure>
+      </div>
+      <div id = "famous-line">
+        <h2><em>"Give Me Liberty or Give Me a Bran Muffin"</em></h2>
+      </div>
+      <div id = "tribute-info">
+        <div id = "tribute-title"><h2>Colin's Timeline of Events</h2></div>
+        <div id = "tribute-container">
+
+          <div id = "events-left">
+            <ul>
+              <li><strong>1957</strong> - Born in Kilmarnock, East Ayrshire, Scotland. The oldest of three children.</li>
+              <li><strong>1964</strong> - Moved to a neighborhood outside of Montreal Quebec. </li>
+              <li><strong>1969</strong> - Moved to Vancouver, British Columbia and attended Killarney Secondary School. Attended the
+                  Studio 58 theatre school which began his stint in improv comedy.</li>
+              <li><strong>1980</strong> - Began work as a member of the Vancouver TheatreSports League. Met fellow improvisor and
+                  future <em>Whose Line </em> cast member Ryan Stiles during this time.</li>
+              <li><strong>1986</strong> - Moved to Toronto and began performing with The Second City comedy troupe in Toronto. </li>
+              <li><strong>1989</strong> - Married Debra McGrath, and had a child, Kinley, in 1990. </li>
+              <li><strong>1989</strong> - Auditioned for the British version of Whose Line Is It Anyway? </li>
+              <li><strong>1998</strong> - Joined Whose Line Is It Anyway? hosted by Drew Carey and appears on every
+                episode from its debut to its finale in 2006. His favourite games on the show were "Scenes From a Hat",
+                  and "Whose Line". He's not been a fan of "Hoedown".</li>
+
+            </ul>
+          </div>
+          <div id = "events-right">
+            <ul>
+              <li><strong>1999</strong> - Guess-starred in three episodes of The Drew Carey Show: "She's Gotta Have It" (1999), "Drew Live" (1999), and "Drew Live II" (2000). </li>
+              <li><strong>2001</strong> - Guest-appearances in This Hour Has 22 Minutes on CBC Television. </li>
+              <li><strong>2003</strong> - Appeared in print and television advertisements to encourage people to visit Toronto after the SARS outbreak that struck the city.</li>
+              <li><strong>2003</strong> - Cameo appearance on Corner Gas.</li>
+              <li><strong>2007</strong> - Hosted part of the Press Correspondents' Dinner with the President.</li>
+              <li><strong>2011</strong> - Appeared as a regular cast member on Drew Carey's Improv-A-Ganza on GSN.</li>
+              <li><strong>2012</strong> - Starred in the ABC improv comedy series Trust Us with Your Life.</li>
+              <li><strong>2013</strong> - Returns as a regular cast member on the newly revived Whose Line is it Anyway?</li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id = "filmography">
+          <h2>Selected Awards</h2>
+      </div>
+      <div id = "awards-container">
+        <div class="award1">
+          <h3>Best Male Improviser</h3>
+          <p>2000</p>
+          <p>Awarded by Canadian Comedy Awards for his work on <em>Whose Line Is It Anyway?</em></p>
+        </div>
+        <div class="award2">
+          <h3>Best Male Performance - Television</h3>
+          <p>2001</p>
+          <p>Awarded by Canadian Comedy Awards for his work on <em>Whose Line Is It Anyway?</em></p>
+        </div>
+        <div class="award3">
+          <h3>Best B-Movie Hollywood Appearance or Cameo</h3>
+          <p>2002</p>
+          <p>Awarded for his work on <em>Jane White Is Sick & Twisted</em></p>
+        </div>
+        <div class="award4">
+          <h3>Best Script for TV Comedy or Variety</h3>
+          <p>2002</p>
+          <p>Awarded by the Writers Guild of Canada Screenwriting Awards for his work on <em>This Hour Has 22 Minutes</em></p>
+        </div>
+        <div class="award5">
+          <h3>Best TV Writing in a Special or Episode</h3>
+          <p>2003</p>
+          <p>Awarded by the Canadian Comedy Awards for his work on <em>This Hour Has 22 Minutes</em> "New Years Even Special"
+            with Greg Thomey, Mary Walsh, Cathy Jones, Mark Critch, Mark Farrell, Paul Mather, Peter McBain, and Kevin White</p>
+        </div>
+        <div class="award6">
+          <h3>Best Ensemble Performance in a Comedy Program or Series</h3>
+          <p>2003</p>
+          <p>Awarded by the Gemini Awards for his work on <em>This Hour Has 22 Minutes</em></p>
+        </div>
+        <div class="award7">
+          <h3>Award of Excellence</h3>
+          <p>2010</p>
+          <p>Awarded by ACTRA Toronto Awards</p>
+        </div>
+        <div class="award8">
+          <h3>Canadian Comedy Person of the Year</h3>
+          <p>2013</p>
+          <p>Awarded by Canadian Comedy Awards</p>
+        </div>
+      </div>
+      <div id = "favoriteSegments">
+        <h2>Some of my favorite Colin segments</h2>
+      </div>
+      <div id = "additional">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pEumUE4BKbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PEJpkXTUe6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mv94VWBMGGY?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id = "learn-more">
+        <h2>Learn More About <a id = "tribute-link" href = "https://en.wikipedia.org/wiki/Colin_Mochrie" target="_blank" >Colin</a> With These Links</h2>
+      </div>
+      <div id = "additional-links">
+        <div class = "buttons">
+          <button class="button1" onclick="window.open('http://www.colinmochrie.com/','_blank')" type="button"><b>Personal Website</b></button>
+          <button class="button2" onclick="window.open('https://www.youtube.com/results?search_query=colin+mochrie','_blank')" type="button"><b>Videos</b></button>
+          <button class="button3" onclick="window.open('https://twitter.com/colinmochrie?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3Acolinmochrie&ref_url=http%3A%2F%2Fwww.colinmochrie.com%2F','_blank')" type="button"><b>Twitter</b></button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id = "author">
+        <h3>About the Author</h3>
+        <p><em>Designed: May 01, 2020.</em></p>
+        <p>Made by Crislana Rafael for FreeCodeCamp's Responsive Web Design Certification.</p>
+      </div>
+
+    </footer>
+
+
+  </body>
+</html>
