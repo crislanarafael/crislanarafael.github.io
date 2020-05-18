@@ -145,8 +145,8 @@ body{
         .transparent_btn, .transparent_btn1{
           margin: 0 0 10px 0;
         }
-        li{
-          font-size: 5px;
+        #instructions{
+          visibility:hidden;
         }
       }
 
