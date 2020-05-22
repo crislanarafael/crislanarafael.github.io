@@ -18,8 +18,8 @@
         justify-content: center;
         align-items: center;
         background-color: #fff;
-        
         z-index: 5;
+        background-repeat: no-repeat;
       }
 
       #logo{
@@ -111,10 +111,10 @@
      height: 100vh;
 
      margin-top: 50px;
+     margin-bottom: 50px;
      background: linear-gradient(rgba(0,2,0,0.2), rgba(0,0,0,0.4)), url("cowboy_med.jpg");
      background-position: 0% 50%;
      background-attachment: fixed;
-     background-repeat: no-repeat;
    }
    #features{
      display: flex;
@@ -144,6 +144,7 @@
      padding: 20px 0 20px 0;
      width: 100%;
      height: auto;
+     margin-top: 10%;
    }
    #beer-selections{
      display: grid;
@@ -166,29 +167,17 @@
    }
 
    @media (max-width: 1000px) {
+
+     #beer-text{
+       text-align: center;
+     }
      video{
-       height: auto;
-       width: 100%;
+       min-height: 100vh;
+       min-width: 100vw;
      }
      #brand-text, #beer-text {
        font-size: 130px;
      }
-     #hero{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     text-align: center;
-     width: 100%;
-     height: 90vh;
-
-     margin-top: 50px;
-     background: linear-gradient(rgba(0,2,0,0.2), rgba(0,0,0,0.4)), url("cowboy_med.jpg");
-     background-position: 0% 50%;
-     
-   }
-     
-     
      #beer-selections{
        display: grid;
        justify-content: center;
@@ -199,9 +188,7 @@
        width: 100%;
        min-height: 70vh;
      }
-     .cat-text{
-       color: white;
-     }
+
      #sinhombre{
        font-size: 40px;
      }
@@ -223,9 +210,12 @@
    }
 
    #kickinghorse{
-     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      background: linear-gradient(rgba(0,2,0,0.2), rgba(0,0,0,0.4)), url("kickinghorse.jpg");
      background-position: 56% 90%;
+
    }
    #kickinghorse:hover{
      cursor: pointer;
@@ -240,25 +230,28 @@
      cursor: pointer;
    }
    #lonestar{
-     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      background: linear-gradient(rgba(0,2,0,0.2), rgba(0,0,0,0.4)), url("lonestar.jpg");
-
      background-position: 70% 40%;
    }
    #outriders{
-     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      background: linear-gradient(rgba(0,2,0,0.2), rgba(0,0,0,0.4)), url("outriders.jpg");
-
      background-position: 87% 10%;
    }
    #dawn{
-     text-align: center;
-
+     display: flex;
+     justify-content: center;
+     align-items: center;
      background: linear-gradient(rgba(0,2,0,0.2), rgba(0,0,0,0.4)), url("dawn.jpg");
      background-position: 50% 50%;
    }
    .cat-text{
-     padding: 80px;
+     font-size: 3.5rem;
      color: white;
    }
    #ourbeers{
@@ -373,7 +366,6 @@
         font-size: 10px;
       }
     }
-
     </style>
   </head>
   <body>
